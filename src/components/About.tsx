@@ -1,5 +1,6 @@
 import React from 'react';
 import { useTheme } from '../context/ThemeContext';
+import { Zoom } from 'react-awesome-reveal';
 
 interface AboutProps {
   description: string[];
@@ -20,13 +21,16 @@ export function About({ description }: AboutProps) {
               className="rounded-lg shadow-lg w-full h-[400px] object-cover"
             />
           </div>
-          <div className="md:w-1/2 space-y-6">
-            {description.map((paragraph, index) => (
-              <p key={index} className={`${theme === 'dark' ? 'text-gray-200' : 'text-gray-900'} leading-relaxed transition-colors`}>
-                {paragraph}
-              </p>
-            ))}
-          </div>
+          
+            <div className="md:w-1/2 space-y-6">
+              <Zoom duration={1000}>
+                {description.map((paragraph, index) => (
+                  <p key={index} className={`${theme === 'dark' ? 'text-gray-200' : 'text-gray-900'} leading-relaxed transition-colors`}>
+                    {paragraph}
+                  </p>
+                ))}
+              </Zoom>
+            </div>
         </div>
       </div>
     </section>

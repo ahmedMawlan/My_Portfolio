@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Home, User, Code2, FolderGit2, Menu, X } from 'lucide-react';
+import { Home, User, Code2, FolderGit2, Menu, X, Mail } from 'lucide-react';
 import { ThemeToggle } from './ThemeToggle';
 import { useTheme } from '../context/ThemeContext';
 
@@ -11,7 +11,8 @@ export function Navbar() {
     { label: 'Home', icon: <Home size={20} />, href: '#home' },
     { label: 'About', icon: <User size={20} />, href: '#about' },
     { label: 'Skills', icon: <Code2 size={20} />, href: '#skills' },
-    { label: 'Projects', icon: <FolderGit2 size={20} />, href: '#projects' }
+    { label: 'Projects', icon: <FolderGit2 size={20} />, href: '#projects' },
+    { label: 'Contact', icon: <Mail size={20} />, href: '#contact' }
   ];
 
   return (

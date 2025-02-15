@@ -27,7 +27,7 @@ export function Skills({ skills }: SkillsProps) {
     <section className={`py-20 ${theme === 'dark' ? 'bg-gray-900' : 'bg-white'} transition-colors duration-300`} id="skills">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className={`text-3xl font-bold text-center mb-12 ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>Skills</h2>
-        <Zoom duration={1500} >
+        <Zoom duration={500} >
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {skills.map((skill) => (
               <div key={skill.name} className={`${theme === 'dark' ? 'bg-gray-800' : 'bg-gray-50'} rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-all`}>
@@ -39,16 +39,16 @@ export function Skills({ skills }: SkillsProps) {
                   />
                 </div>
                 <div className="p-6">
-                  <div className="flex justify-between mb-2">
+                  <div className="flex justify-center mb-2">
                     <span className={`font-medium text-lg ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>{skill.name}</span>
-                    <span className="text-cyan-400 font-medium">{skill.level}%</span>
+                    {/* <span className="text-cyan-400 font-medium">{skill.level}%</span> */}
                   </div>
-                  <div className={`w-full ${theme === 'dark' ? 'bg-gray-700' : 'bg-gray-200'} rounded-full h-2.5`}>
+                  {/* <div className={`w-full ${theme === 'dark' ? 'bg-gray-700' : 'bg-gray-200'} rounded-full h-2.5`}>
                     <div
                       className="bg-cyan-400 h-2.5 rounded-full transition-all duration-500"
                       style={{ width: `${skill.level}%` }}
                     ></div>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             ))}

@@ -26,17 +26,19 @@ function App() {
       "My journey in web development started several years ago, and I've since worked on various projects that have helped me develop a deep understanding of frontend architecture, user experience, and modern development practices."
     ],
     skills: [
+
       { name: "HTML/CSS", level: 90 },
       { name: "JavaScript", level: 70 },
       { name: "React", level: 60 },
       { name: "TypeScript", level: 50 },
       { name: "Tailwind CSS", level: 85 },
       { name: "Git", level: 80 }
+
     ],
     projects: [
       {
         title: "E-commerce Platform",
-        description: "A full-featured e-commerce platform with cart functionality and payment integration.",
+        description: "A full-featured e-commerce platform with cart functionality and payment integration. ==> Note: This task still building.",
         image: "https://images.unsplash.com/photo-1557821552-17105176677c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
         technologies: ["React", "TypeScript", "Tailwind CSS", "Redux"],
         githubUrl: "https://github.com/yourusername/project1",
@@ -46,7 +48,7 @@ function App() {
         title: "Simple menue food",
         description: "In this project we show sum animations and we use filter to search on menue foods.",
         image: "https://th.bing.com/th/id/OIP.ginxemAWvQq1iGz7Hn-XYAHaHa?w=202&h=202&c=7&r=0&o=5&pid=1.7",
-        technologies: ["React", "TypeScript", "bootstrap", "Css"],
+        technologies: ["React", "bootstrap", "Css"],
         githubUrl: "https://github.com/ahmedMawlan/React-Projects/tree/master/menue-food",
         liveUrl: "https://simple-menue-food.netlify.app/"
       },
@@ -54,7 +56,7 @@ function App() {
         title: "Simple dates reminder",
         description: "In this small dates reminder we show some details about some people .",
         image: "https://th.bing.com/th/id/OIP.6jSaw1h6L8zNS65GzJFEgAHaDj?w=342&h=168&c=7&r=0&o=5&pid=1.7",
-        technologies: ["React", "TypeScript", "bootstrap", "Css"],
+        technologies: ["React", "bootstrap", "Css"],
         githubUrl: "https://github.com/ahmedMawlan/React-Projects/tree/master/dates-reminder",
         liveUrl: "https://simple-dates-reminder.netlify.app/"
       },
@@ -85,7 +87,7 @@ function App() {
       {
         title: "IPHONE",
         description: "In this task we show some iphons but different colors.",
-        image: "https://th.bing.com/th/id/OIF.LvfdA9h5TwoSnjCiqnkyRQ?w=316&h=180&c=7&r=0&o=5&pid=1.7",
+        image: "https://images.unsplash.com/photo-1512054502232-10a0a035d672?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
         technologies: ["Html", "Css", "JavaScript"],
         githubUrl: "https://github.com/ahmedMawlan/JavaScript-Projects/tree/main/IPHONE%20Page",
         liveUrl: "https://i-phone-page.netlify.app/"

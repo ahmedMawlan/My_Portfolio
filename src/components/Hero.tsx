@@ -27,7 +27,7 @@ export function Hero({ name, title, photoUrl, socialLinks }: HeroProps) {
 
           {/* /* CV Download Button */}
           <a
-            href="https://drive.google.com/file/d/1ArGiBvtm1qN9ii3BRdlrLhIhzyuEB0Dy/view?usp=drivesdk"
+            href="https://drive.google.com/file/d/1CCwEgyyj-nQ8j56Hbz5NkBlFwb_5b8Dz/view?usp=drivesdk"
             download
             target="_blank"
             className="inline-flex items-center gap-2 px-6 py-3 bg-cyan-500 hover:bg-cyan-600 text-white rounded-full transition-colors duration-300 mb-8"

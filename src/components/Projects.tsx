@@ -23,7 +23,7 @@ export function Projects({ projects }: ProjectsProps) {
     <section className={`py-20 ${theme === 'dark' ? 'bg-gray-700' : 'bg-gray-200'} transition-colors duration-300`} id="projects">
       <div className="max-w-6xl mx-auto px-4">
         <h2 className={`text-3xl font-bold text-center mb-12 ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>Projects</h2>
-        <Zoom  duration={2000}>
+        <Zoom  duration={1000}>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project) => (
               <div
